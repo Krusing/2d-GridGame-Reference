@@ -1,32 +1,8 @@
 # Grid reference
 
-## Render
-
-### Direction
-
-When asking for a new line on the grid, the values tell what side of the grid the new line is to be rendered.
-
-Render direction table:
-
-Direction|||
-:-|-:|-:
-Up|0|0
-Right|0|1
-Down|1|1
-Left|1|0
-
 ## Tile
 
-The order in wich the tiles transition between different material. Side arrangement must line up to create a transition between two tiles.
-
 ### Reference
-
-Lineup
-
-![](0-0.png)
-![](0-1.png)
-![](1-1.png)
-![](1-0.png)
 
 ||Name
 :-:|:-:
@@ -67,8 +43,6 @@ Tile|Up|Right|Down|Left
 
 
 ## Row
-
-Example of a row with 10 tiles:
 
 ![](tile/x00.jpg)![](tile/x07.jpg)![](tile/x06.jpg)![](tile/x0D.jpg)![](tile/x04.jpg)![](tile/x00.jpg)![](tile/x08.jpg)![](tile/x0B.jpg)![](tile/x02.jpg)![](tile/x03.jpg)
 
